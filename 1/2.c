@@ -7,22 +7,7 @@ int main(void)
     int c = 33;
 
     printf("a = %d, b = %d, c = %d\n", a, b, c);
-/*    if (a < b)
-    {
-         
-        if(a < c )
-        {
-            printf("c = %d\n", c);
-        }
-        printf("a = %d\n", a);
-     
 
-    if (b < c)
-    {
-        printf("b = %d\n", b);
-    }
-    }
-*/    
     if(a < b)
     {
         if (a < c)
@@ -40,7 +25,7 @@ int main(void)
         {
             printf("b = %d\n", b);
         }
-        else 
+        else
         {
             printf("c = %d\n", c);
         }
