@@ -86,13 +86,13 @@ int do_insert(sqlite3 *db)
 	char sql[N] = {0};
 	char *errmsg;
 
-	printf("input  student id > ");
+	printf("input  student ID > ");
 	scanf("%d", &id);
 
-	printf("input  student name > ");
+	printf("input  student Name > ");
 	scanf("%s", name);
 
-	printf("input  student score > ");
+	printf("input  student Score > ");
 	scanf("%d", &score);
 
 	sprintf(sql, "insert into stu values(%d, '%s', %d)", id, name, score);
